@@ -1,0 +1,87 @@
+.Links
+{
+    display: grid;
+    grid-template-columns: 80px 80px 80px ;
+    grid-template-rows:  50px ;
+    gap: 2px;
+    margin-left: 940px ;
+    margin-top: 0 ;
+}
+.Links .index_html
+{
+    grid-column: 1 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .index_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.Links .index_html a.active
+{
+    background: rgb(255, 255, 255);
+    color:  rgb(32, 101, 36);
+    border: 1px solid  rgb(32, 101, 36);
+}
+.Links .cv_html
+{
+    grid-column: 2 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .cv_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+   
+}
+.Links .cv_html a.active
+{
+    color:rgb(255, 153, 0);
+    background: white;
+    border: 1px solid rgb(255, 153, 0);
+}
+.Links .contact_html
+{
+    grid-column: 3 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .contact_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+.Links .contact_html a.active
+{
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}

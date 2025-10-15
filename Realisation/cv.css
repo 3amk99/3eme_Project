@@ -1,0 +1,665 @@
+body
+{
+    margin: 20px ;
+    font-family: sans-serif , Arial, Helvetica, sans-serif;
+    padding: 0;
+    
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, black 3% , white 3% , white 27%, rgba(51, 75, 53)27%, rgba(51, 75, 53)65%,white 65% , white 100% );
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.Links
+{
+    position: relative;
+    top: -135px ;
+}
+
+
+
+
+.big_cv
+{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 153, 0);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 500px ;
+}
+
+
+
+.compet_name
+{
+    position: relative;
+    top: 34px ;
+    width: 200px;
+    color: rgb(0, 0, 0) ;
+    z-index: 3;
+}
+.compet_name i
+{
+    color: rgb(255, 0, 0);
+}
+
+
+
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3 , 300px);
+    grid-template-rows: repeat(4 , 500px);
+}
+
+
+
+
+
+.image
+{
+    position: relative; 
+    grid-column: 3 ; grid-row: 1    ;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    border-radius: 20px;
+    width: 200px ;
+    height: auto ;
+}
+
+.image ul
+{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    width: 180px ;
+    padding: 10px ;
+    margin: 0 ;
+    font-size: 12px ;
+    list-style: none;
+}
+.image ul li
+{
+    padding: 15px 0 0 0 ;
+}
+.image ul li .asset
+{
+    margin-right: 10px ;
+}
+
+/* çççççççççççççççççç atawich dyal date0 o date1 ççççççççççççççççç */
+.image .ATAWICH_DATE
+{
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 250px ;
+    right: 120px ;
+}
+.image .ATAWICH_DATE span 
+{
+    position: absolute;
+    transition: opacity 0.3s ;
+    white-space: nowrap; 
+}
+.image .ATAWICH_DATE .Date0
+{
+    opacity: 1;
+}
+.image .ATAWICH_DATE .Date1 
+{
+    opacity: 0;
+}
+
+.image .ATAWICH_DATE:hover .Date0 
+{
+    opacity: 0;
+}
+
+.image .ATAWICH_DATE:hover .Date1
+{
+   opacity: 1;
+}
+
+.image .ATAWICH_DATE .Date0
+{
+    position: absolute;           
+    background: rgb(255, 179, 0);
+    color: black;
+    padding: 10px ;
+    border-radius: 20px ;
+    
+}
+.image .ATAWICH_DATE .Date1
+{
+    position: absolute;
+    width: 65px ;          
+    background: rgb(0, 0, 0);
+    color: rgb(255, 153, 0);
+    padding: 10px ;
+    border-radius: 20px ;
+   
+}
+/* çççççççççççççççççç atawich fin ççççççççççççççççç */
+
+
+/* çççççççççççççççççççççç dyal name   çççççççççççççç */
+.image .ATAWICH_NAME
+{
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 70px ;
+    left: 70px ;
+}
+.image .ATAWICH_NAME span 
+{
+    position: absolute;
+    transition: opacity 0.3s;
+    white-space: nowrap; 
+}
+.image .ATAWICH_NAME .Name0
+{
+    opacity: 1;
+}
+
+.image .ATAWICH_NAME .Name1 
+{
+    opacity: 0;
+}
+
+.image .ATAWICH_NAME:hover .Name0
+{
+    opacity: 0;
+}
+
+.image .ATAWICH_NAME:hover .Name1
+{
+   opacity: 1;
+}
+
+.image .ATAWICH_NAME .Name0
+{
+    position: absolute;
+    width: 40px ;
+    background: rgb(255, 179, 0);
+    color: black;
+    padding: 10px ;
+    border-radius: 20px ;
+   
+}
+.image .ATAWICH_NAME .Name1
+{
+    position: absolute;   
+    width: 40px ;         
+    background: rgb(0, 0, 0);
+    color: rgb(255, 153, 0);
+    padding: 10px ;
+    border-radius: 20px ;
+   
+}
+/* çççççççççççççççççççççççççççççç fin name  çççççççççççççççççççç */
+
+
+
+
+
+
+
+
+.profil
+{
+    grid-column: 1/3 ; grid-row: 1    ;
+}
+.profil .Hello
+{
+    font-size: 40px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px ;
+    width: 200px;
+}
+.profil .paragraph_motivation
+{
+    width: 300px ;
+    margin-left: 100px ;
+}
+.profil .barraa
+{
+    width: 220px;
+    height: 18px ;
+    background: red;
+    color: azure;
+    padding: 10px ;
+    padding-left: 29px ;
+    border-radius: 22px ;
+    margin-left: 100px ;
+}
+.profil .barraa i
+{
+    margin-right: 20px ;
+}
+.profil .barraa a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.Eduction
+{
+    grid-column: 1/3 ; grid-row: 2    ;
+    height: 400px ;
+    margin-top: 120px ;
+}
+.Eduction ul 
+{
+    list-style: none;
+}
+.Eduction .title_education
+{
+   font-size: 35px ;
+   color: rgb(245, 235, 54);
+   margin-left: 60px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.Eduction .year
+{
+    font-size: 22px ;
+    color: rgb(255, 255, 255);
+}
+.Eduction .collector
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 1 ;
+}
+.Eduction .collector::before
+{
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: rgb(255, 255, 255);
+  top: 40px;
+  bottom: 30px ;
+  left: 47px  ;
+  z-index: 1 ;
+}
+.Eduction .collector .names
+{
+    color: rgb(255, 255, 255);
+    padding-left: 30px ;
+}
+.Eduction .collector .star
+{
+    position: relative;
+    color: red;
+    z-index: 2 ;
+}
+
+
+
+
+
+.skills
+{
+    grid-column: 3 ; grid-row: 2   ;
+    margin-top: 70px;
+    margin-left: 50px ;
+}
+.skills .Skill_container
+{
+    display: grid;
+    grid-template-columns: 70px 70px ;
+    grid-template-rows:  50px 50px ;
+    gap: 5px ;
+}
+.skills .Skill_container .pl1
+{
+    width: 50px;
+    height: 50px ;
+    background: rgb(255, 255, 255);
+    color: rgba(51, 75, 53);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px ;
+    font-weight: bolder;
+    margin-left: 20px ;
+}
+.skills .Skill_container .pl2
+{
+    width: 50px;
+    height: 50px ;
+    background: rgb(255, 255, 255);
+    color: rgba(51, 75, 53);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px ;
+    font-weight: bolder;
+    margin-right: 10px ;
+}
+.skills .Skill_container .pl3
+{
+    width: 50px;
+    height: 50px ;
+    background: rgb(255, 255, 255);
+    color: rgba(51, 75, 53);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px ;
+    font-weight: bolder;
+    margin-left: 20px ;
+}
+.skills .Skill_container .pl4
+{
+    width: 50px;
+    height: 50px ;
+    background: rgb(255, 255, 255);
+    color: rgba(51, 75, 53);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px ;
+    font-weight: bolder;
+    margin-right: 10px ;
+}
+.skills h3
+{
+    font-size: 35px ;
+    color: rgb(255, 153, 0);;
+}
+
+
+
+
+
+
+.Experience
+{
+    grid-column: 1 / 3; grid-row: 3    ;
+    background: rgba(253, 173, 22);
+    padding-top: 60px ;
+}
+.Experience .Experience_title
+{
+   font-size: 32px ;
+   margin-left: 55px;
+   padding-bottom: 20px ;
+}
+.Experience .collector1
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 100px 70px 300px; 
+    grid-template-rows: 80px 80px 80px ;      
+    gap: 10px; 
+    text-align: center;
+    margin-left: 0;
+}
+.Experience .collector1::before
+{
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: rgb(255, 255, 255);
+  top: 15px;
+  bottom: 70px ;
+  transform: translateX(55%);
+  left: 92px  ;
+  z-index: 1 ;
+}
+.Experience .collector1 .star
+{
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding-left: 80px ;
+    font-size: 30px;
+    z-index: 2;
+}
+.Experience .collector1 .year
+{
+    font-size: 22px;
+    padding-right: 50px;
+    padding-top: 5px ;
+    padding-left: 10px ;
+}
+.Experience ul
+{
+    list-style: none;
+    font-size: 13px ;
+}
+.Experience .collector1 .names 
+{
+    color: rgb(0, 0, 0);
+    font-size: 16px ;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    padding-top: 5px ;
+}
+.Experience .collector1 .names .les_paragraphes
+{
+    width: 300px ;
+    height: 50px ;
+    font-size: 10px ;
+}
+.Experience .what_know
+{
+  display: grid;
+  grid-template-columns: repeat(2, 170px); 
+  grid-template-rows: repeat(2, 45px);   
+  gap: 10px; 
+  text-align: center;
+  margin-left: 80px ;
+}
+.Experience .what_know .number
+{
+    padding: 10px;
+    background: black;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 30px ;
+    padding-top: 12px ;
+    font-size: 13px;
+}
+
+
+
+
+.Language
+{
+  grid-column: 3 ; grid-row: 3    ;
+  margin-top: 300px ;
+  margin-left: 30px ;
+}
+.Language .big_title
+{
+  padding-bottom: 30px ;
+  font-size: 35px ;
+  color: rgb(0, 0, 0);
+}
+.Language .container_language
+{
+    display: grid;
+    grid-template-columns: 100px 260px;  
+    grid-template-rows: 30px 30px ;       
+    gap: 10px; 
+}
+.Language .container_language .title1
+{
+    padding-left: 20px ;
+    margin-top: 10px ;
+    color: rgb(0, 0, 0);
+}
+.Language .container_language .title2
+{
+    padding-left: 20px ;
+    margin-top: 10px ;
+    color: rgb(0, 0, 0);
+}
+.Language .container_language .title3
+{
+    padding-left: 20px ;
+    margin-top: 10px ;
+    color: rgb(0, 0, 0);
+}
+.Language .container_language .bar-container1
+  {
+    width: 150px;       
+    height: 12px;         
+    background-color: #ddd;
+    border-radius: 15px; 
+    overflow: hidden;      
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    margin-top: 13px ;
+  }
+  .Language .container_language .bar-container1 .bar1
+  {
+    height: 100%;
+    width: 100%;           
+    background: rgba(253, 173, 22);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 12px;
+    font-weight: bold;
+    font-size: 10px ;
+  }
+.Language .container_language .bar-container2
+  {
+    width: 150px;         
+    height: 12px;       
+    background-color: #ddd; 
+    border-radius: 15px;   
+    overflow: hidden;      
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    
+    margin-top: 13px ;
+  }
+  .Language .container_language .bar-container2 .bar2
+  {
+    height: 100%;
+    width: 60%;            
+    background: rgba(253, 173, 22);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 12px;
+    font-weight: bold;
+    font-size: 10px ;
+  }
+.Language .container_language .bar-container3
+  {
+    width: 150px;         
+    height: 12px;          
+    background-color: #ddd; 
+    border-radius: 15px;   
+    overflow: hidden;     
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    
+    margin-top: 13px ;
+  }
+  .Language .container_language .bar-container3 .bar3
+  {
+    height: 100%;
+    width: 70%;            
+    background: rgba(253, 173, 22);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 12px;
+    font-weight: bold;
+    font-size: 10px ;
+  }
+
+
+
+
+  
+  .Hobbies
+  {
+    grid-column: 2 ; grid-row: 4    ;
+    margin-top: 110px ;
+    margin-left: 30px ;
+  }
+ .Hobbies h3
+ {
+   font-size: 35px ;
+   padding-bottom: 40px ;
+ }
+ .Hobbies .container_hobbies
+  {
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px ; 
+    grid-template-rows: 50px 50px;     
+    gap: 10px; 
+
+  }
+ .Hobbies .container_hobbies .emoji1
+  {
+    grid-column: 1 ; grid-row: 1   ;
+    color: rgba(253, 173, 22);
+    font-size: 40px ;
+  }
+ .Hobbies .container_hobbies .emoji2
+  {
+    grid-column: 2 ; grid-row: 1   ;
+    color:  rgba(253, 173, 22);;
+    font-size: 40px ;
+  }
+  .Hobbies .container_hobbies .emoji3
+  {
+    grid-column: 3 ; grid-row: 1   ;
+    color: rgba(253, 173, 22);
+    font-size: 40px ;
+  }
+  .Hobbies .container_hobbies .emoji4
+  {
+    grid-column: 4 ; grid-row: 1   ;
+    color: rgba(253, 173, 22);
+    font-size: 40px ;
+  }
+  .Hobbies .container_hobbies .hname1
+  {
+    grid-column: 1 ; grid-row: 2   ;
+    color: black;
+    font-weight: 100; 
+  }
+  .Hobbies .container_hobbies .hname2
+  {
+    grid-column: 2 ; grid-row: 2   ;
+    color: black;
+    font-weight: 100; 
+  } 
+ .Hobbies .container_hobbies .hname3
+  {
+    grid-column: 3 ; grid-row: 2   ;
+    color: black;
+    font-weight: 100; 
+  } 
+ .Hobbies .container_hobbies .hname4
+  {
+    grid-column: 4 ; grid-row: 2   ;
+    color: black;
+    font-weight: 100; 
+  } 
+
+
+
+

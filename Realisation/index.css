@@ -1,0 +1,26 @@
+body
+{
+    font-family: sans-serif , Arial, Helvetica, sans-serif;
+    background: rgb(100, 100, 100); 
+    margin: 0 ;  
+}
+.simple_txt
+{
+    background: rgb(32, 101, 36);
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 200px ;
+    margin-top: 100px;
+    margin-left: 400px ;
+    text-align: center;
+    padding-top: 100px ;
+    border-radius: 30px;
+    transition: 0.3s ;
+}
+.simple_txt:hover
+{
+    box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
+    background: white;
+    color:rgb(32, 101, 36);
+    transform: scale(1.1);
+}

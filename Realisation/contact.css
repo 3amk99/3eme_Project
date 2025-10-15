@@ -1,0 +1,284 @@
+body
+{
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif , Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255) ;
+    margin-left: 10px ;
+    margin-right: 10px ;
+}
+.cader
+{
+    display: grid;
+    grid-template-columns: repeat(2 , 400px);
+    grid-template-rows: repeat(1 , 480px);
+    background: rgb(219, 217, 217);
+    margin-right: 380px;
+    margin-left: 100px;
+    box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
+}
+.cader .sign_up
+{
+    grid-column: 1 ; grid-row: 1    ;
+    margin-top: 70px ;
+    margin-left: 80px ;
+    font-size: 20px;
+}
+.cader .informations
+{
+    grid-column: 1 ; grid-row: 1    ;
+}
+.cader .also
+{
+    grid-column: 1 ; grid-row: 1    ;
+    margin-top: 350px ;
+    margin-left: 30px  ;
+    margin-right: 30px  ;
+    height: 20px ;
+}
+.cader .also
+{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 10px;
+}
+
+.cader .also::before,
+.cader .also::after 
+{
+  content: "";
+  flex: 1;
+  border-top: 1px solid black;  
+}
+
+.cader .also::before 
+{
+  margin-right: 15px;  
+}
+
+.cader .also::after 
+{
+  margin-left: 15px;  
+}
+
+
+
+
+
+.cader .social_media
+{
+    grid-column: 1 ; grid-row: 1    ;
+    margin-top: 370px ;
+    margin-left: 77px  ;
+    margin-right: 30px  ;
+    height: 20px ;
+}
+.cader .social_media i 
+{
+    font-size: 20px;
+    margin: 30px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ;
+}
+.cader .social_media i:hover
+{
+  transform: scale(1.15);
+}
+.cader .social_media a
+{
+    text-decoration: none;
+}
+
+
+
+.cader .image_green
+{
+    grid-column: 2 ; grid-row: 1    ;
+    width: 400px;
+    height: 480px ;
+}
+.cader .image_green img
+{
+    width: 400px;
+    height: 480px ;
+}
+
+
+
+.cader .txt0n_pag
+{
+    grid-column: 2 ; grid-row: 1    ;
+    margin-top: 100px ;
+    margin-left: 30px ;
+}
+.cader .txt0n_pag ul
+{
+    list-style: none;
+}
+.cader .txt0n_pag ul li
+{
+    margin-top: 10px ;
+    font-size: 20px ;
+}
+.cader .txt0n_pag ul .phrase2
+{
+    color: rgb(30, 130, 30);
+}
+
+
+
+
+.cader .something
+{
+    grid-column: 2 ; grid-row: 1    ;
+    margin-left: 20px ;
+}
+.cader .something .txt
+{
+    font-size: 7px ;
+    color: #1e5721;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.cader .informations form
+{
+    display: grid;
+    grid-template-columns: 300px ;
+    grid-template-rows: 40px 60px 80px 40px;
+    margin: 120px 30px 20px 50px;
+}
+
+
+
+
+.cader .informations  .square_name
+{
+    grid-column: 1 ; grid-row: 1    ;
+    margin-left: 20px ;
+    margin-top: 0px ;
+}
+.cader .informations .square_name label
+{
+    display: block;           
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+.cader .informations .square_name input
+{
+    padding: 2px;
+    padding-top: 3px ;
+    padding-right: 70px ;
+    margin-bottom: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+.cader .informations .square_name input:focus
+{
+    border-color: #4CAF50;
+}
+
+
+
+
+
+
+
+
+.cader .informations .square_email
+{
+    grid-column: 1 ; grid-row: 2    ;
+    margin-left: 20px ;
+    margin-top: 10px ;
+}
+.cader .informations .square_email label
+{
+    display: block;            
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+.cader .informations .square_email input
+{
+    padding: 2px;
+    padding-right: 68px ;
+    margin-bottom: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+.cader .informations .square_email input:focus
+{
+    border-color: #4CAF50;
+}
+
+
+
+
+
+
+
+
+.cader .informations .square_message
+{
+    grid-column: 1 ; grid-row: 3    ;
+    margin-left: 20px ;
+}
+.cader .informations .square_message label
+{
+    display: block;            
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+.cader .informations .square_message textarea
+{
+    padding: 2px;
+    padding-right: 70px ;
+    margin-bottom: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+.cader .informations .square_message textarea:focus
+{
+    border-color: #4CAF50;
+}
+
+
+
+
+
+
+
+.cader .informations   button
+{
+    grid-column: 1 ; grid-row: 4    ;
+    background-color: #0c0c0c;  
+    color: white;
+    border: none;
+    padding: 0px;
+    width: 100px ;
+    height: 33px ;
+    margin-left: 100px ;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.cader .informations button:hover
+{
+    background-color: #ffffff;
+    color: black;
+}

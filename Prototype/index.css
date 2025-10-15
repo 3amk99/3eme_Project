@@ -1,0 +1,250 @@
+body
+{
+    box-sizing: border-box;
+    font-family: sans-serif ,Arial, Helvetica, sans-serif;
+    margin: 100px  ;
+    background: rgb(104, 104, 104);
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(2 , 400px) ;
+    grid-template-rows: repeat(3 , 500px ) ;
+    background: rgb(78, 90, 132);
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 8px 7px 6px rgba(0, 0, 0, 0.7) ;
+}
+
+
+
+
+.image
+{
+    grid-column: 1 ; grid-row: 1 ;
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img
+{
+    width: 200px ;
+    height: auto ;
+    border-radius: 50%;
+    transition: 0.3s ;
+    box-shadow: 8px 7px 6px rgba(0, 0, 0, 0.4) ;
+}
+.image img:hover
+{
+    transform: scale(1.05);
+    box-shadow: -8px 7px 12px rgba(255, 255, 255, 0.5) ;
+}
+
+
+
+
+.profil
+{
+    grid-column: 2 ; grid-row: 1 ;
+   
+    display: grid;
+    grid-template-columns: 400px ;
+    grid-template-rows: 200px 300px ;
+}
+.profil p
+{
+    grid-column: 1 ; grid-row: 2 ;
+    font-size: 12px ;
+    padding: 50px 10px 30px 10px ;
+    background: rgb(0, 21, 255);
+    margin: 50px ;
+    color: white;
+    border-radius: 15px ;
+    box-shadow: 7px 8px 6px rgba(0, 0, 0, 0.4) ;
+    transition: 0.3s ;
+}
+.profil p:hover
+{
+    transform: scale(1.1);
+    color:  rgb(0, 21, 255); 
+    background: white;
+}
+.profil .name
+{
+    grid-column: 1 ; grid-row: 1 ;
+    margin: 60px 55px  ;
+    background: rgb(212, 0, 255);
+    text-align: center;
+    padding-top: 30px ;
+    font-size: 25px;
+    border-radius: 17px ;
+    box-shadow: 7px 8px 6px rgba(0, 0, 0, 0.4) ;
+    color: white;
+}
+
+
+
+
+.Personnal_infos
+{
+    grid-column: 1 ; grid-row: 2 ;
+  
+    display: grid;
+    grid-template-columns: 400px ;
+    grid-template-rows: 100px 300px ;
+}
+.Personnal_infos p 
+{
+    grid-column: 1 ; grid-row: 1 ;
+    background: rgb(4, 0, 255);
+    margin: 40px 50px  ;
+    padding: 10px 10px 30px 10px ;
+    text-align: center;
+    border-radius: 15px ;
+    color: white;
+    box-shadow: 7px 8px 6px rgba(0, 0, 0, 0.4) ;
+    transition: 0.3s ;
+}
+.Personnal_infos p:hover
+{
+    transform: scale(1.05);
+    background: rgb(255, 255, 255);
+    color:rgb(4, 0, 255);
+}
+.Personnal_infos ul
+{
+    list-style: none;
+    padding: 0px 10px ;
+    border-radius: 20px;
+    margin: 0;
+}
+.Personnal_infos ul li
+{
+    margin: 15px 10px ;
+    padding: 20px 10px ;
+    background: rgb(0, 89, 255);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 7px 8px 6px rgba(0, 0, 0, 0.4) ;
+    transition: 0.3s ;
+}
+.Personnal_infos ul li:hover
+{
+    transform: scale(1.05);
+    background: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+
+
+.skills
+{
+    grid-column: 2 ; grid-row: 2 ;
+   
+    padding: 125px 100px ;
+}
+.skills table
+{
+    width: 200px;
+    height: 250px ;
+    text-align: center;
+}
+.skills table th
+{
+    background: rgb(11, 40, 96);
+    color: white;
+    border-radius: 15px;
+}
+.skills table td
+{
+    background: rgb(16, 81, 212);
+    color: white;
+    border-radius: 15px;
+}
+
+
+
+.hobbies
+{
+    grid-column: 1 ; grid-row: 3 ;  
+  
+    display: grid;
+    grid-template-columns: 400px ;
+    grid-template-rows: 100px 300px ;
+}
+.hobbies p 
+{
+    grid-column: 1 ; grid-row: 1 ;
+    background: rgb(4, 0, 255);
+    margin: 40px 50px  ;
+    padding: 10px 10px 30px 10px ;
+    text-align: center;
+    border-radius: 15px ;
+    color: white;
+    box-shadow: 7px 8px 6px rgba(0, 0, 0, 0.4) ;
+    transition: 0.3s ;
+}
+.hobbies p:hover
+{
+    transform: scale(1.05);
+    background: rgb(255, 255, 255);
+    color:rgb(4, 0, 255);
+}
+.hobbies ul
+{
+    list-style: none;
+    padding: 0px 10px ;
+    border-radius: 20px;
+    margin: 0;
+}
+.hobbies ul li
+{
+    margin: 15px 10px ;
+    padding: 20px 10px ;
+    background: rgb(0, 89, 255);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 7px 8px 6px rgba(0, 0, 0, 0.4) ;
+    transition: 0.3s ;
+}
+.hobbies ul li:hover
+{
+    transform: scale(1.05);
+    background: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+.links
+{
+    grid-column: 2 ; grid-row: 3 ;
+  
+    display: grid;
+    grid-template-columns: 400px ;
+    grid-template-rows: 250px 250px ;
+}
+.links p 
+{
+    grid-column: 1 ; grid-row: 1 ;
+    margin-top: 180px ;
+    margin-left: 75px;
+    margin-right: 75px ;
+    padding-top: 10px ;
+    text-align: center;
+    background: rgb(60, 0, 255);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px ;
+}
+.links a
+{
+    grid-column: 1 ; grid-row: 2 ;
+    margin-bottom: 180px ;
+    text-align: center;
+    background: rgb(0, 84, 14);
+    color: white;
+}
