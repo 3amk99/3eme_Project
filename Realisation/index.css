@@ -4,9 +4,98 @@ body
     background: rgb(100, 100, 100); 
     margin: 0 ;  
 }
+
+.Links
+{
+    display: grid;
+    grid-template-columns: 80px 80px 80px ;
+    grid-template-rows:  50px ;
+    gap: 2px;
+   
+    margin-top: 0 ;
+}
+.Links .index_html
+{
+    grid-column: 1 ; grid-row: 1    ;
+    background:rgb(5, 82, 189);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .index_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.Links .index_html a.active
+{
+    background: rgb(255, 255, 255);
+    color:  rgb(5, 82, 189);
+    border: 1px solid  rgb(5, 82, 189);
+}
+.Links .cv_html
+{
+    grid-column: 2 ; grid-row: 1    ;
+    background:rgb(5, 82, 189);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .cv_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+   
+}
+.Links .cv_html a.active
+{
+    color:rgb(255, 153, 0);
+    background: white;
+    border: 1px solid rgb(255, 153, 0);
+}
+.Links .contact_html
+{
+    grid-column: 3 ; grid-row: 1    ;
+    background:rgb(5, 82, 189);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .contact_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+.Links .contact_html a.active
+{
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
 .simple_txt
 {
-    background: rgb(32, 101, 36);
+    background: rgb(5, 82, 189);
     color: rgb(255, 255, 255);
     width: 400px;
     height: 200px ;
@@ -21,6 +110,127 @@ body
 {
     box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
     background: white;
-    color:rgb(32, 101, 36);
+    color:rgb(5, 82, 189);
     transform: scale(1.1);
+}
+@media (max-width: 900px)
+{
+
+body
+{
+    font-family: sans-serif , Arial, Helvetica, sans-serif;
+    background: rgb(100, 100, 100); 
+    margin: 0 ;  
+}
+
+.Links
+{
+    display: grid;
+    grid-template-columns: 40px 40px 40px ;
+    grid-template-rows:  25px ;
+    gap: 2px;
+   
+    margin-top: 0 ;
+}
+.Links .index_html
+{
+    grid-column: 1 ; grid-row: 1    ;
+    background:rgb(5, 82, 189);
+    text-align: center ;
+    line-height: 25px;
+    height: 25px ;
+    width: 40px ;
+    border-radius: 15px ;
+}
+.Links .index_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 10px ;
+}
+.Links .index_html a.active
+{
+    background: rgb(255, 255, 255);
+    color:  rgb(5, 82, 189);
+    border: 1px solid  rgb(5, 82, 189);
+}
+.Links .cv_html
+{
+    grid-column: 2 ; grid-row: 1    ;
+    background:rgb(5, 82, 189);
+    text-align: center ;
+    line-height: 25px;
+    height: 25px ;
+    width: 40px ;
+    border-radius: 15px ;
+}
+.Links .cv_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 10px ;
+}
+.Links .cv_html a.active
+{
+    color:rgb(255, 153, 0);
+    background: white;
+    border: 1px solid rgb(255, 153, 0);
+}
+.Links .contact_html
+{
+    grid-column: 3 ; grid-row: 1    ;
+    background:rgb(5, 82, 189);
+    text-align: center ;
+    line-height: 25px;
+    height: 25px ;
+    width: 40px ;
+    border-radius: 15px ;
+}
+.Links .contact_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 10px ;
+}
+.Links .contact_html a.active
+{
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.simple_txt
+{
+    background: rgb(5, 82, 189);
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 100px ;
+    margin-top: 50px;
+    margin-left: 200px ;
+    text-align: center;
+    padding-top: 50px ;
+    border-radius: 15px;
+    transition: 0.3s ;
+}
+.simple_txt:hover
+{
+    box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
+    background: white;
+    color:rgb(5, 82, 189);
+    transform: scale(1.1);
+}
+
+
 }

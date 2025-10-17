@@ -6,8 +6,7 @@ body
     
     background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, black 3% , white 3% , white 27%, rgba(51, 75, 53)27%, rgba(51, 75, 53)65%,white 65% , white 100% );
     background-repeat: no-repeat;
-    background-size: cover;
-   
+     
 }
 
 
@@ -16,7 +15,94 @@ body
     position: relative;
     top: -135px ;
 }
+.Links
+{
+    display: grid;
+    grid-template-columns: 80px 80px 80px ;
+    grid-template-rows:  50px ;
+    gap: 2px;
+   
+    margin-top: 0 ;
+}
 
+.Links .cv_html
+{
+    grid-column: 2 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .cv_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+   
+}
+.Links .cv_html a.active
+{
+    color:rgb(255, 153, 0);
+    background: white;
+    border: 1px solid rgb(255, 153, 0);
+}
+.Links .index_html
+{
+    grid-column: 1 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .index_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.Links .index_html a.active
+{
+    background: rgb(255, 255, 255);
+    color:  rgb(32, 101, 36);
+    border: 1px solid  rgb(32, 101, 36);
+}
+.Links .contact_html
+{
+    grid-column: 3 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .contact_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+.Links .contact_html a.active
+{
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
 
 
 
@@ -72,11 +158,15 @@ body
     width: 200px ;
     height: auto ;
 }
-
+.image img
+{
+    width: 200px ;
+    height: auto ;
+}
 .image ul
 {
     background: rgb(0, 0, 0);
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     width: 180px ;
     padding: 10px ;
     margin: 0 ;
@@ -89,7 +179,7 @@ body
 }
 .image ul li .asset
 {
-    margin-right: 10px ;
+    margin-right: 10px ;  
 }
 
 /* çççççççççççççççççç atawich dyal date0 o date1 ççççççççççççççççç */
@@ -594,7 +684,7 @@ body
   
   .Hobbies
   {
-    grid-column: 2 ; grid-row: 4    ;
+    grid-column: 1/5 ; grid-row: 4    ;
     margin-top: 110px ;
     margin-left: 30px ;
   }
@@ -663,3 +753,800 @@ body
 
 
 
+  @media (max-width: 685px)
+  {
+    body
+    {
+        margin: 20px ;
+        font-family: sans-serif , Arial, Helvetica, sans-serif;
+        padding: 0;
+        background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, black 3% , white 3% , white 27%, rgba(51, 75, 53)27%, rgba(51, 75, 53)65%,white 65% , white 100% );
+        background-repeat: no-repeat;   
+    }
+    
+    
+    .Links
+    {
+        position: relative;
+        top: -90px ;
+        
+    }
+    .Links
+   {
+    display: grid;
+    grid-template-columns: 40px 40px 40px ;
+    grid-template-rows:  20px ;
+    gap: 2px;
+    margin-top: 0 ;
+   }
+
+.Links .cv_html
+{
+    grid-column: 2 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 20px;
+    height: 20px ;
+    width: 40px ;
+    border-radius: 15px ;
+    margin-top: 15px ;
+    font-size: 10px ;
+}
+.Links .cv_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+   
+}
+.Links .cv_html a.active
+{
+    color:rgb(255, 153, 0);
+    background: white;
+    border: 1px solid rgb(255, 153, 0);
+}
+.Links .index_html
+{
+    grid-column: 1 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 20px;
+    height: 20px ;
+    width: 40px ;
+    border-radius: 15px ;
+    margin-top: 15px ;
+    font-size: 10px ;
+}
+.Links .index_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.Links .index_html a.active
+{
+    background: rgb(255, 255, 255);
+    color:  rgb(32, 101, 36);
+    border: 1px solid  rgb(32, 101, 36);
+}
+.Links .contact_html
+{
+    grid-column: 3 ; grid-row: 1    ;
+    background:rgb(255, 153, 0);
+    text-align: center ;
+    line-height: 20px;
+    height: 20px ;
+    width: 40px ;
+    border-radius: 15px ;
+    margin-top: 15px ;
+    font-size: 10px ;
+}
+.Links .contact_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+.Links .contact_html a.active
+{
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+
+.big_cv
+{
+    position: relative;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 153, 0);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 500px ;
+    top: -12px ;
+}
+    
+    
+    
+    .big_cv
+    {
+        color: rgb(0, 0, 0);
+        background: rgb(255, 153, 0);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 23px;
+        margin-left: 250px ;
+        font-size: 10px ;
+    }
+    
+    
+    
+    .compet_name
+    {
+        position: relative;
+        top: 34px ;
+        width: 100px;
+        color: rgb(0, 0, 0) ;
+        z-index: 3;
+        font-size: 8px ;
+    }
+    .compet_name i
+    {
+        color: rgb(255, 0, 0);
+        font-size: 9px ;
+    }
+    
+    
+    
+    .container
+    {
+        display: grid;
+        grid-template-columns: repeat(3 , 150px);
+        grid-template-rows: repeat(4 , 250px);
+    }
+    
+    
+    
+    
+    
+    .image
+    {
+        position: relative; 
+        grid-column: 3 ; grid-row: 1    ;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        justify-content: center;
+        border-radius: 20px;
+        width: 100px ;
+        height: auto ;
+    }
+    .image img
+    {
+        width: 100px ;
+        height: auto ;
+    }
+    
+    .image ul
+    {
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        width: 90px ;
+        padding: 5px ;
+        margin: 0 ;
+        font-size: 6px ;
+        list-style: none;
+    }
+    .image ul li
+    {
+        padding: 7px 0 0 0 ;
+    }
+    .image ul li .asset
+    {
+        margin-right: 5px ;  
+    }
+    
+    /* çççççççççççççççççç atawich dyal date0 o date1 ççççççççççççççççç */
+    .image .ATAWICH_DATE
+    {
+        position: relative;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        bottom: 130px ;
+        right: 110px ;
+    }
+    .image .ATAWICH_DATE span 
+    {
+        position: absolute;
+        transition: opacity 0.3s ;
+        white-space: nowrap; 
+    }
+    .image .ATAWICH_DATE .Date0
+    {
+        opacity: 1;
+    }
+    .image .ATAWICH_DATE .Date1 
+    {
+        opacity: 0;
+    }
+    
+    .image .ATAWICH_DATE:hover .Date0 
+    {
+        opacity: 0;
+    }
+    
+    .image .ATAWICH_DATE:hover .Date1
+    {
+       opacity: 1;
+    }
+    
+    .image .ATAWICH_DATE .Date0
+    {
+        position: absolute;           
+        background: rgb(255, 179, 0);
+        color: black;
+        padding: 5px ;
+        border-radius: 20px ;
+        width: 70px ;
+    }
+    .image .ATAWICH_DATE .Date1
+    {
+        position: absolute;
+        width: 70px ;          
+        background: rgb(0, 0, 0);
+        color: rgb(255, 153, 0);
+        padding: 5px ;
+        border-radius: 20px ;
+       
+    }
+    /* çççççççççççççççççç atawich fin ççççççççççççççççç */
+    
+    
+    /* çççççççççççççççççççççç dyal name   çççççççççççççç */
+    .image .ATAWICH_NAME
+    {
+        position: relative;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        bottom: 35px ;
+        left: 35px ;
+        
+    }
+    .image .ATAWICH_NAME span 
+    {
+        position: absolute;
+        transition: opacity 0.3s;
+        white-space: nowrap; 
+    }
+    .image .ATAWICH_NAME .Name0
+    {
+        opacity: 1;
+    }
+    
+    .image .ATAWICH_NAME .Name1 
+    {
+        opacity: 0;
+    }
+    
+    .image .ATAWICH_NAME:hover .Name0
+    {
+        opacity: 0;
+    }
+    
+    .image .ATAWICH_NAME:hover .Name1
+    {
+       opacity: 1;
+    }
+    
+    .image .ATAWICH_NAME .Name0
+    {
+        position: absolute;
+        width: 30px ;
+        background: rgb(255, 179, 0);
+        color: black;
+        padding: 5px ;
+        border-radius: 20px ;
+       
+    }
+    .image .ATAWICH_NAME .Name1
+    {
+        position: absolute;   
+        width: 30px ;         
+        background: rgb(0, 0, 0);
+        color: rgb(255, 153, 0);
+        padding: 5px ;
+        border-radius: 20px ;
+       
+    }
+    /* çççççççççççççççççççççççççççççç fin name  çççççççççççççççççççç */
+    
+    
+    
+    
+    
+    
+    
+    
+    .profil
+    {
+        grid-column: 1/3 ; grid-row: 1    ;
+    }
+    .profil .Hello
+    {
+        font-size: 20px ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 50px ;
+        width: 100px;
+    }
+    .profil .paragraph_motivation
+    {
+        width: 150px ;
+        margin-left: 50px ;
+        font-size: 5px ;
+    }
+    .profil .barraa
+    {
+        width: 110px;
+        height: 9px ;
+        background: red;
+        color: azure;
+        padding: 5px ;
+        padding-left: 15px ;
+        border-radius: 22px ;
+        margin-left: 50px ;
+        font-size: 7px ;
+    }
+    .profil .barraa i
+    {
+        margin-right: 10px ;
+    }
+    .profil .barraa a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    
+    
+    .Eduction
+    {
+        grid-column: 1/3 ; grid-row: 2    ;
+        height: 200px ;
+        margin-top: 0px ;
+    }
+    .Eduction ul 
+    {
+        list-style: none;
+    }
+    .Eduction .title_education
+    {
+       font-size: 17px ;
+       color: rgb(245, 235, 54);
+       margin-left: 30px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .Eduction .year
+    {
+        font-size: 11px ;
+        color: rgb(255, 255, 255);
+    }
+    .Eduction .collector
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        z-index: 1 ;
+    }
+    .Eduction .collector::before
+    {
+      content: "";
+      position: absolute;
+      width: 1px;
+      background-color: rgb(255, 255, 255);
+      top: 30px;
+      bottom: 30px ;
+      left: 46px  ;
+      z-index: 1 ;
+    }
+    .Eduction .collector .names
+    {
+        font-size: 10px ;
+        color: rgb(255, 255, 255);
+        padding-left: 15px ;
+    }
+    .Eduction .collector .star
+    {
+        position: relative;
+        color: red;
+        z-index: 2 ;
+    }
+    
+    
+    
+    
+    
+    .skills
+    {
+        grid-column: 3 ; grid-row: 2   ;
+        margin-top: 35px;
+        margin-left: 35px ;
+    }
+    .skills .Skill_container
+    {
+        display: grid;
+        grid-template-columns: 35px 35px ;
+        grid-template-rows:  25px 25px ;
+        gap: 2px ;
+    }
+    .skills .Skill_container .pl1
+    {
+        width: 25px;
+        height: 25px ;
+        background: rgb(255, 255, 255);
+        color: rgba(51, 75, 53);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px ;
+        font-weight: bolder;
+        margin-left: 10px ;
+        font-size: 7px ;
+    }
+    .skills .Skill_container .pl2
+    {
+        width: 25px;
+        height: 25px ;
+        background: rgb(255, 255, 255);
+        color: rgba(51, 75, 53);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px ;
+        font-weight: bolder;
+        margin-right: 5px ;
+        font-size: 7px ;
+    }
+    .skills .Skill_container .pl3
+    {
+        width: 25px;
+        height: 25px ;
+        background: rgb(255, 255, 255);
+        color: rgba(51, 75, 53);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px ;
+        font-weight: bolder;
+        margin-left: 10px ;
+        font-size: 7px ;
+    }
+    .skills .Skill_container .pl4
+    {
+        width: 25px;
+        height: 25px ;
+        background: rgb(255, 255, 255);
+        color: rgba(51, 75, 53);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px ;
+        font-weight: bolder;
+        margin-right: 5px ;
+        font-size: 7px ;
+    }
+    .skills h3
+    {
+        font-size: 17px ;
+        color: rgb(255, 153, 0);;
+    }
+    
+    
+    
+    
+    
+    
+    .Experience
+    {
+        grid-column: 1 / 3; grid-row: 3    ;
+        background: rgba(253, 173, 22);
+        padding-top: 30px ;
+    }
+    .Experience .Experience_title
+    {
+       font-size: 16px ;
+       margin-left: 27px;
+       padding-bottom: 10px ;
+    }
+    .Experience .collector1
+    {
+        position: relative;
+        display: grid;
+        grid-template-columns: 50px 35px 150px; 
+        grid-template-rows: 40px 40px 40px ;      
+        gap: 5px; 
+        text-align: center;
+        margin-left: 0;
+    }
+    .Experience .collector1::before
+    {
+      content: "";
+      position: absolute;
+      width: 1px;
+      background-color: rgb(255, 255, 255);
+      top: 7px;
+      bottom: 35px ;
+      transform: translateX(55%);
+      left: 45px  ;
+      z-index: 1 ;
+    }
+    .Experience .collector1 .star
+    {
+        position: relative;
+        color: rgb(255, 255, 255);
+        padding-left: 40px ;
+        font-size: 15px;
+        z-index: 2;
+    }
+    .Experience .collector1 .year
+    {
+        font-size: 11px;
+        padding-right: 10px;
+        padding-top: 2px ;
+        padding-left: 5px ;
+    }
+    .Experience ul
+    {
+        list-style: none;
+        font-size: 6px ;
+    }
+    .Experience .collector1 .names 
+    {
+        color: rgb(0, 0, 0);
+        font-size: 16px ;
+        font-weight: bold;
+        width: 100px;
+        height: 15px;
+        text-align: left;
+        padding-top: 2px ;
+        font-size: 11px ;
+    }
+    .Experience .collector1 .names .les_paragraphes
+    {
+        width: 150px ;
+        height: 25px ;
+        font-size: 5px ;
+    }
+    .Experience .what_know
+    {
+      display: grid;
+      grid-template-columns: repeat(2, 85px); 
+      grid-template-rows: repeat(2, 22px);   
+      gap: 5px; 
+      text-align: center;
+      margin-left: 40px ;
+    }
+    .Experience .what_know .number
+    {
+        padding: 5px;
+        background: black;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        border-radius: 30px ;
+        padding-top: 6px ;
+        font-size: 6px;
+    }
+    
+    
+    
+    
+    .Language
+    {
+      grid-column: 3 ; grid-row: 3    ;
+      margin-top: 150px ;
+      margin-left: 15px ;
+    }
+    .Language .big_title
+    {
+      padding-bottom: 15px ;
+      font-size: 17px ;
+      color: rgb(0, 0, 0);
+    }
+    .Language .container_language
+    {
+        display: grid;
+        grid-template-columns: 50px 140px;  
+        grid-template-rows: 15px 15px ;       
+        gap: 5px; 
+    }
+    .Language .container_language .title1
+    {
+        padding-left: 10px ;
+        margin-top: 5px ;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+    .Language .container_language .title2
+    {
+        padding-left: 10px ;
+        margin-top: 5px ;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+    .Language .container_language .title3
+    {
+        padding-left: 10px ;
+        margin-top: 5px ;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+    .Language .container_language .bar-container1
+      {
+        width: 75px;       
+        height: 6px;         
+        background-color: #ddd;
+        border-radius: 15px; 
+        overflow: hidden;      
+        box-shadow: 0 0 4px rgba(0,0,0,0.2);
+        margin-top: 6px ;
+      }
+      .Language .container_language .bar-container1 .bar1
+      {
+        height: 100%;
+        width: 100%;           
+        background: rgba(253, 173, 22);
+        text-align: center;
+        color: rgb(0, 0, 0);
+        line-height: 6px;
+        font-weight: bold;
+        font-size: 5px ;
+      }
+    .Language .container_language .bar-container2
+      {
+        width: 75px;         
+        height: 6px;       
+        background-color: #ddd; 
+        border-radius: 15px;   
+        overflow: hidden;      
+        box-shadow: 0 0 4px rgba(0,0,0,0.2);
+        
+        margin-top: 6px ;
+      }
+      .Language .container_language .bar-container2 .bar2
+      {
+        height: 100%;
+        width: 60%;            
+        background: rgba(253, 173, 22);
+        text-align: center;
+        color: rgb(0, 0, 0);
+        line-height: 6px;
+        font-weight: bold;
+        font-size: 5px ;
+      }
+    .Language .container_language .bar-container3
+      {
+        width: 75px;         
+        height: 6px;          
+        background-color: #ddd; 
+        border-radius: 15px;   
+        overflow: hidden;     
+        box-shadow: 0 0 4px rgba(0,0,0,0.2);
+        
+        margin-top: 6px ;
+      }
+      .Language .container_language .bar-container3 .bar3
+      {
+        height: 100%;
+        width: 70%;            
+        background: rgba(253, 173, 22);
+        text-align: center;
+        color: rgb(0, 0, 0);
+        line-height: 6px;
+        font-weight: bold;
+        font-size: 5px ;
+      }
+    
+    
+    
+    
+      
+      .Hobbies
+      {
+        grid-column: 1/5 ; grid-row: 4    ;
+        margin-top: 65px ;
+        margin-left: 15px ;
+      }
+     .Hobbies h3
+     {
+       font-size: 17px ;
+       padding-bottom: 20px ;
+     }
+     .Hobbies .container_hobbies
+      {
+        display: grid;
+        grid-template-columns: 115px 115px 115px 115px ; 
+        grid-template-rows: 25px 25px;     
+        gap: 5px; 
+    
+      }
+     .Hobbies .container_hobbies .emoji1
+      {
+        grid-column: 1 ; grid-row: 1   ;
+        color: rgba(253, 173, 22);
+        font-size: 20px ;
+      }
+     .Hobbies .container_hobbies .emoji2
+      {
+        grid-column: 2 ; grid-row: 1   ;
+        color:  rgba(253, 173, 22);;
+        font-size: 20px ;
+      }
+      .Hobbies .container_hobbies .emoji3
+      {
+        grid-column: 3 ; grid-row: 1   ;
+        color: rgba(253, 173, 22);
+        font-size: 20px ;
+      }
+      .Hobbies .container_hobbies .emoji4
+      {
+        grid-column: 4 ; grid-row: 1   ;
+        color: rgba(253, 173, 22);
+        font-size: 20px ;
+      }
+      .Hobbies .container_hobbies .hname1
+      {
+        grid-column: 1 ; grid-row: 2   ;
+        color: black;
+        font-weight: 100; 
+      }
+      .Hobbies .container_hobbies .hname2
+      {
+        grid-column: 2 ; grid-row: 2   ;
+        color: black;
+        font-weight: 100; 
+      } 
+     .Hobbies .container_hobbies .hname3
+      {
+        grid-column: 3 ; grid-row: 2   ;
+        color: black;
+        font-weight: 100; 
+      } 
+     .Hobbies .container_hobbies .hname4
+      {
+        grid-column: 4 ; grid-row: 2   ;
+        color: black;
+        font-weight: 100; 
+      } 
+    
+    
+    
+        
+    
+  }
+    

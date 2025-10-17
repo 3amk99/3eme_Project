@@ -7,6 +7,101 @@ body
     margin-left: 10px ;
     margin-right: 10px ;
 }
+
+
+.Links
+{
+    display: grid;
+    grid-template-columns: 80px 80px 80px ;
+    grid-template-rows:  50px ;
+    gap: 2px;
+   
+    margin-top: 0 ;
+}
+.Links .index_html
+{
+    grid-column: 1 ; grid-row: 1    ;
+    background:rgb(12, 120, 48);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .index_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.Links .index_html a.active
+{
+    background: rgb(255, 255, 255);
+    color:  rgb(32, 101, 36);
+    border: 1px solid  rgb(32, 101, 36);
+}
+.Links .cv_html
+{
+    grid-column: 2 ; grid-row: 1    ;
+    background:rgb(12, 120, 48);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .cv_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+   
+}
+.Links .cv_html a.active
+{
+    color:rgb(255, 153, 0);
+    background: white;
+    border: 1px solid rgb(255, 153, 0);
+}
+.Links .contact_html
+{
+    grid-column: 3 ; grid-row: 1    ;
+    background:rgb(12, 120, 48);
+    text-align: center ;
+    line-height: 50px;
+    height: 50px ;
+    width: 80px ;
+    border-radius: 30px ;
+}
+.Links .contact_html a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+.Links .contact_html a.active
+{
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+
 .cader
 {
     display: grid;
@@ -16,6 +111,9 @@ body
     margin-right: 380px;
     margin-left: 100px;
     box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
+    width: 800px  ;
+    height: 480px  ;
+    margin-top: 30px ;
 }
 .cader .sign_up
 {
@@ -281,4 +379,416 @@ body
 {
     background-color: #ffffff;
     color: black;
+}
+
+@media (max-width: 900px)
+{
+    body
+    {
+        margin: 0 ;
+        box-sizing: border-box;
+        font-family: sans-serif , Arial, Helvetica, sans-serif;
+        background: rgb(255, 255, 255) ;
+        margin-left: 5px ;
+        margin-right: 5px ;
+    }
+
+
+
+
+    .Links
+{
+    display: grid;
+    grid-template-columns: 40px 40px 40px ;
+    grid-template-rows:  25px ;
+    gap: 2px;
+   
+    margin-top: 0 ;
+}
+.Links .index_html
+{
+    grid-column: 1 ; grid-row: 1    ;
+    background:rgb(12, 120, 48);
+    text-align: center ;
+    line-height: 25px;
+    height: 25px ;
+    width: 40px ;
+    border-radius: 15px ;
+}
+.Links .index_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 10px ;
+}
+.Links .index_html a.active
+{
+    background: rgb(255, 255, 255);
+    color: rgb(12, 120, 48);
+    border: 1px solid  rgb(12, 120, 48);
+}
+.Links .cv_html
+{
+    grid-column: 2 ; grid-row: 1    ;
+    background:rgb(12, 120, 48);
+    text-align: center ;
+    line-height: 25px;
+    height: 25px ;
+    width: 40px ;
+    border-radius: 15px ;
+}
+.Links .cv_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 10px ;
+}
+.Links .cv_html a.active
+{
+    color:rgb(255, 153, 0);
+    background: white;
+    border: 1px solid rgb(255, 153, 0);
+}
+.Links .contact_html
+{
+    grid-column: 3 ; grid-row: 1    ;
+    background:rgb(12, 120, 48);
+    text-align: center ;
+    line-height: 25px;
+    height: 25px ;
+    width: 40px ;
+    border-radius: 15px ;
+}
+.Links .contact_html a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 10px ;
+}
+.Links .contact_html a.active
+{
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.simple_txt
+{
+    background: rgb(12, 120, 48);
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 100px ;
+    margin-top: 50px;
+    margin-left: 200px ;
+    text-align: center;
+    padding-top: 50px ;
+    border-radius: 15px;
+    transition: 0.3s ;
+}
+.simple_txt:hover
+{
+    box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
+    background: white;
+    color:rgb(12, 120, 48);
+    transform: scale(1.1);
+}
+
+
+
+
+    .cader
+    {
+        display: grid;
+        grid-template-columns: repeat(2 , 200px);
+        grid-template-rows: repeat(1 , 240px);
+        background: rgb(219, 217, 217);
+        margin-right: 190px;
+        margin-left: 50px;
+        box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
+        width: 400px  ;
+        height: 240px  ;
+    }
+    .cader .sign_up
+    {
+        grid-column: 1 ; grid-row: 1    ;
+        margin-top: 35px ;
+        margin-left: 40px ;
+        font-size: 10px;
+    }
+    .cader .informations
+    {
+        grid-column: 1 ; grid-row: 1    ;
+    }
+    .cader .also
+    {
+        grid-column: 1 ; grid-row: 1    ;
+        margin-top: 175px ;
+        margin-left: 15px  ;
+        margin-right: 15px  ;
+        height: 10px ;
+    }
+    .cader .also
+    {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: black;
+      font-size: 5px;
+    }
+    
+    .cader .also::before,
+    .cader .also::after 
+    {
+      content: "";
+      flex: 1;
+      border-top: 1px solid black;  
+    }
+    
+    .cader .also::before 
+    {
+      margin-right: 7px;  
+    }
+    
+    .cader .also::after 
+    {
+      margin-left: 7px;  
+    }
+    
+    
+    
+    
+    
+    .cader .social_media
+    {
+        grid-column: 1 ; grid-row: 1    ;
+        margin-top: 185px ;
+        margin-left: 36px  ;
+        margin-right: 15px  ;
+        height: 10px ;
+    }
+    .cader .social_media i 
+    {
+        font-size: 10px;
+        margin: 15px;
+        color: black;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.3s ;
+    }
+    .cader .social_media i:hover
+    {
+      transform: scale(1.15);
+    }
+    .cader .social_media a
+    {
+        text-decoration: none;
+    }
+    
+    
+    
+    .cader .image_green
+    {
+        grid-column: 2 ; grid-row: 1    ;
+        width: 200px;
+        height: 240px ;
+    }
+    .cader .image_green img
+    {
+        width: 200px;
+        height: 240px ;
+    }
+    
+    
+    
+    .cader .txt0n_pag
+    {
+        grid-column: 2 ; grid-row: 1    ;
+        margin-top: 50px ;
+        margin-left: 15px ;
+    }
+    .cader .txt0n_pag ul
+    {
+        list-style: none;
+    }
+    .cader .txt0n_pag ul li
+    {
+        margin-top: 5px ;
+        font-size: 10px ;
+    }
+    .cader .txt0n_pag ul .phrase2
+    {
+        color: rgb(30, 130, 30);
+    }
+    
+    
+    
+    
+    .cader .something
+    {
+        grid-column: 2 ; grid-row: 1    ;
+        margin-left: 10px ;
+    }
+    .cader .something .txt
+    {
+        font-size: 3px ;
+        color: #1e5721;
+        font-weight: bold;
+    }
+    
+    
+    
+    
+    
+    
+    .cader .informations form
+    {
+        display: grid;
+        grid-template-columns: 150px ;
+        grid-template-rows: 30px 30px 40px 20px;
+        margin: 60px 15px 10px 25px;
+    }
+    
+    
+    
+    
+    .cader .informations  .square_name
+    {
+        grid-column: 1 ; grid-row: 1    ;
+        margin-left: 10px ;
+        margin-top: 0px ;
+    }
+    .cader .informations .square_name label
+    {
+        display: block;           
+        font-size: 5px;
+        margin-bottom: 2px;
+        color: #000000;
+    }
+    .cader .informations .square_name input
+    {
+        padding: 2px;
+        padding-top: 3px ;
+        padding-right: 55px ;
+        margin-bottom: 7px;
+        border: 2px solid #ffffff;
+        border-radius: 2px;
+        font-size: 7px;
+        outline: none;
+    }
+    .cader .informations .square_name input:focus
+    {
+        border-color: #4CAF50;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .cader .informations .square_email
+    {
+        grid-column: 1 ; grid-row: 2    ;
+        margin-left: 10px ;
+        margin-top: 5px ;
+    }
+    .cader .informations .square_email label
+    {
+        display: block;            
+        font-size: 5px;
+        margin-top: 2px ;
+        margin: 0 ;
+        color: #000000;
+    }
+    .cader .informations .square_email input
+    {
+        padding: 2px;
+        padding-right: 55px ;
+        margin-bottom: 7px;
+        border: 2px solid #ffffff;
+        border-radius: 2px;
+        font-size: 7px;
+        outline: none;
+    }
+    .cader .informations .square_email input:focus
+    {
+        border-color: #4CAF50;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .cader .informations .square_message
+    {
+        grid-column: 1 ; grid-row: 3    ;
+        margin-left: 10px ;
+    }
+    .cader .informations .square_message label
+    {
+        display: block;            
+        font-size: 5px;
+        margin-bottom: 2px;
+        margin-top: 5px ;
+        color: #000000;
+    }
+    .cader .informations .square_message textarea
+    {
+        padding: 2px;
+        padding-right: 45px ;
+        margin-bottom: 7px;
+        border: 2px solid #ffffff;
+        border-radius: 2px;
+        font-size: 7px;
+        outline: none;
+    }
+    .cader .informations .square_message textarea:focus
+    {
+        border-color: #4CAF50;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .cader .informations   button
+    {
+        grid-column: 1 ; grid-row: 4    ;
+        background-color: #0c0c0c;  
+        color: white;
+        border: none;
+        padding: 0px;
+        width: 40px ;
+        height: 12px ;
+        margin-left: 50px ;
+        margin-top: 2px ;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 6px ;
+    }
+    .cader .informations button:hover
+    {
+        background-color: #ffffff;
+        color: black;
+    }
+    
+    
 }
