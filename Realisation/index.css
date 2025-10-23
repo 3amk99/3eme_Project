@@ -92,26 +92,61 @@ body
     background: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
 }
-
-.simple_txt
+.container11
 {
-    background: rgb(5, 82, 189);
-    color: rgb(255, 255, 255);
-    width: 400px;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: 300px 300px ;
+}
+.container11 .image
+{
+    grid-row: 1 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px ;
+}
+.container11 .image img
+{
+  width: 200px ;
+  height: auto;
+  border: 1px solid black;
+}
+.container11 .txt
+{
+    grid-row: 2 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.container11 .txt .simple_txt 
+{
+    background: rgb(0, 0, 0);
+    width: 200px;
     height: 200px ;
-    margin-top: 100px;
-    margin-left: 400px ;
     text-align: center;
-    padding-top: 100px ;
-    border-radius: 30px;
+    border: 1px solid rgb(0, 0, 0);
     transition: 0.3s ;
 }
-.simple_txt:hover
+.container11 .txt .simple_txt .paragraphe
 {
-    box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
-    background: white;
-    color:rgb(5, 82, 189);
-    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.container11 .txt .simple_txt .name .fa-solid
+{
+    color: rgb(255, 0, 0);
+}
+.container11 .txt .simple_txt .name
+{
+    color: rgb(255, 255, 255);
+}
+.foot
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: aliceblue;
 }
 @media (max-width: 900px)
 {
@@ -210,34 +245,4 @@ body
     background: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
 }
-
-
-.big_simple_txt
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.simple_txt
-{
-    background: rgb(5, 82, 189);
-    color: rgb(255, 255, 255);
-    width: 200px;
-    height: 100px ;
-    margin-top: 50px;
-    margin-left: 10px ;
-    text-align: center;
-    padding-top: 50px ;
-    border-radius: 15px;
-    transition: 0.3s ;
-}
-.simple_txt:hover
-{
-    box-shadow: 8px 6px 9px rgba(0, 0, 0, 0.5);
-    background: white;
-    color:rgb(5, 82, 189);
-    transform: scale(1.1);
-}
-
-
 }
